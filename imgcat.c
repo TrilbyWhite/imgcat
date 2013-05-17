@@ -53,7 +53,7 @@ void configurenotify(XEvent *e) {
 }
 
 void expose(XEvent *e) {
-//	draw();
+	draw();
 }
 
 void keypress(XEvent *e) {
