@@ -1,0 +1,31 @@
+IMGCAT - a ridiculously simple single image viewer
+
+USAGE: imgcat [-b] <filename>
+
+OPTIONS:
+	-b	set the background / root window image
+
+Imgcat will display an image and scale any size image to a reasonable default size for viewing (hardcoded to 640x480 at present, but will be configurable soon).  Imgcat also sets the window's resource name string to "float" which can be used by many tiling window managers' rules to not tile the window.
+
+Imgcat does not, and will not, view directories of images, nor slideshows, nor lists of files.  Imgcat simply 'cats' an image to the screen for viewing or to the root window for a background.
+
+KEYS:
+	q
+		quit
+	Up/+/k
+		zoom in
+	Down/-/j
+		zoom out
+	Right/l
+		increase aspect ratio
+	Left/h
+		decrease aspect ratio
+	f
+		toggle fullscreen
+	s
+		fit to screen (max zoom maintaining aspect ratio that will fit on scree)
+	r
+		zoom to regular size
+
+
+
